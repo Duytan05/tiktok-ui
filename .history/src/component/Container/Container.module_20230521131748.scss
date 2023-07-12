@@ -1,0 +1,35 @@
+.groupcate {
+    display: block;
+    overflow: hidden;
+    margin: 10px 0;
+    background: #9a9696;
+    border-radius: 6px;
+
+    .namegroup {
+        display: block;
+        overflow: hidden;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px;
+    }
+    .listgroup {
+        display: block;
+        overflow: hidden;
+        color: #333;
+        .listgroup a {
+            float: left;
+            display: flex;
+            overflow: hidden;
+            margin-bottom: 10px;
+            width: 10%;
+            text-align: center;
+
+            position: relative;
+        }
+        a {
+            display: flex;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

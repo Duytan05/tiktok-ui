@@ -1,0 +1,247 @@
+.boxfooter {
+    display: flex;
+    overflow: hidden;
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px 0;
+    float: right;
+}
+
+.boxfooter aside {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.boxfooter aside:nth-child(2) {
+    width: 50%;
+    background-color: #fff;
+}
+
+.boxfooter aside:nth-child(3) {
+    width: 50%;
+    background-color: #e9edf0;
+}
+
+.boxfooter-detail {
+    display: flex;
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.boxfooter-detail aside {
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.boxfooter-detail aside:nth-child(2) {
+    width: 25%;
+    background-color: #fff;
+}
+
+.boxfooter-detail aside:nth-child(3) {
+    width: 20%;
+    background-color: #e9edf0;
+}
+.copyright {
+    display: block;
+    width: 980px;
+    margin: auto;
+    font-size: 10px;
+    color: #999;
+    text-align: center;
+    background: #e9edf0;
+    padding: 5px 0;
+    float: right;
+}
+
+.copyright.hascart {
+    margin-bottom: 40px;
+}
+
+.copyright-detail {
+    display: block;
+    width: 800px;
+    margin: auto;
+    font-size: 10px;
+    color: #999;
+    text-align: center;
+    background: #e9edf0;
+    padding: 5px 470px 0 50px;
+}
+
+.copyright a {
+    color: #999;
+    text-decoration: underline;
+}
+
+.copyright-detail a {
+    color: #999;
+    text-decoration: underline;
+}
+.bhx-sship {
+    background-position: -55px -261px;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.bhx-pig {
+    background-position: -88px -261px;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.bhx-swap {
+    background-position: -122px -261px;
+    width: 15px;
+    height: 18px;
+    margin-right: 5px;
+}
+.callcenter {
+    display: block;
+    overflow: hidden;
+    padding: 10px 10px 5px;
+    background: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    color: #008848;
+}
+
+.callcenter a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #008848;
+}
+
+.detail {
+    display: flex;
+}
+
+.detail .callcenter {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.detail .callcenter a {
+    display: inline-block;
+    vertical-align: initial;
+    color: #008848;
+}
+
+.detail .linkstatic a {
+    float: left;
+    overflow: hidden;
+    font-size: 12px;
+    color: #288ad6;
+    line-height: 28px;
+    text-align: left;
+    padding: 0;
+    width: 33%;
+}
+
+.detail .stores {
+    box-sizing: border-box;
+    font-size: 12px;
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    color: #4a4a4a;
+    width: 100%;
+    padding-left: 95px;
+    float: right;
+}
+
+.detail .stores > div {
+    margin: 5px 0;
+}
+
+.detail .stores > div:first-child,
+.detail .stores > div:nth-child(2) {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    padding: 10px 0 5px;
+}
+
+.detail .stores > div:first-child a,
+.detail .stores > div:nth-child(2) a {
+    vertical-align: middle;
+}
+
+.detail .stores > div span {
+    font-weight: 700;
+    color: #a30a1d;
+}
+
+.detail .stores .bhx-stores {
+    background-position: -154px -267px;
+    width: 25px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.detail .stores .bhx-footer-purchase {
+    background-position: -317px -267px;
+    width: 25px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.detail .webmember div {
+    display: inline-block;
+}
+
+.detail .webmember a {
+    margin-right: 10px;
+}
+.benefits {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    padding: 16px 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.benefits > div,
+.benefits > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.benefits > a {
+    border-left: 1px solid #ccc;
+    color: #000;
+}
+
+.benefits > div i,
+.benefits > a i {
+    min-width: 27px;
+    width: 27px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.benefits > div i.bhx-pig,
+.benefits > a i.bhx-pig {
+    margin-left: 45px;
+}
+
+.benefits > div p,
+.benefits > a p {
+    display: inline-block;
+    width: 48%;
+}

@@ -1,0 +1,46 @@
+.groupcate {
+    display: block;
+    overflow: hidden;
+    margin: 10px 0;
+    background: #e9edf0;
+    border-radius: 6px;
+
+    .namegroup {
+        display: block;
+        overflow: hidden;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px;
+    }
+    .listgroup {
+        display: flex;
+        align-items: center;
+        // display: block;
+        // overflow: hidden;
+        // float: left;
+        .listgroup img {
+            margin-right: 10px;
+        }
+        .listgroup a {
+            float: left;
+            display: flex;
+            overflow: hidden;
+            margin-bottom: 10px;
+            width: 10%;
+            text-align: center;
+            position: relative;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+.listgroup {
+    display: flex;
+    align-items: center;
+}
+
+.listgroup span {
+    display: block;
+}

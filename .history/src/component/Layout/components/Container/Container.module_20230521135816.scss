@@ -1,0 +1,53 @@
+.groupcate {
+    display: block;
+    overflow: hidden;
+    margin: 10px 0;
+    background: #e9edf0;
+    border-radius: 6px;
+
+    .namegroup {
+        display: block;
+        overflow: hidden;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px;
+    }
+    .listgroup {
+        display: flex;
+        align-items: center;
+        // display: block;
+        // overflow: hidden;
+        // float: left;
+        .listgroup img {
+            margin-right: 10px;
+            width: 10%;
+        }
+        .listgroup span {
+            display: block;
+        }
+        .listgroup a {
+            float: left;
+            overflow: hidden;
+            margin-bottom: 10px;
+            width: 10%;
+            text-align: center;
+            position: relative;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+// .listgroup {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .listgroup img {
+//     margin-right: 10px;
+// }
+
+// .listgroup span {
+//     display: block;
+// }

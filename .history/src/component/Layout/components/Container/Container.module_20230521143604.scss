@@ -1,0 +1,84 @@
+.groupcate {
+    display: block;
+    overflow: hidden;
+    margin: 10px 0;
+    background: #e9edf0;
+    border-radius: 6px;
+}
+
+.namegroup {
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+}
+//     .listgroup {
+//         display: flex;
+//         align-items: center;
+//         // display: block;
+//         // overflow: hidden;
+//         // float: left;
+//         .listgroup img {
+//             margin-right: 10px;
+//             width: 10%;
+//         }
+//
+//         .listgroup a {
+//             // float: left;
+//             // overflow: hidden;
+//             // margin-bottom: 10px;
+//             // width: 10%;
+//             // text-align: center;
+//             // position: relative;
+//         }
+//         a {
+//             text-decoration: none;
+//             color: black;
+//         }
+//     }
+// }
+
+//     .listgroup {
+//         display: flex;
+//         align-items: center;
+//     }
+
+//     .listgroup img {
+//         margin-right: 10px;
+//     }
+
+//     .listgroup span {
+//         display: block;
+//     }
+// }
+.listgroup {
+    display: block;
+    display: flex;
+    overflow: hidden;
+}
+
+.listgroup a {
+    float: left;
+    overflow: hidden;
+    margin-bottom: 10px;
+    width: 10%;
+    text-align: center;
+    position: relative;
+}
+
+.listgroup span {
+    display: block;
+    line-height: 1.3em;
+    font-size: 13px;
+    color: #0064c2;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.listgroup img {
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto 5px;
+}
